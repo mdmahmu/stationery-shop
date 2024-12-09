@@ -5,9 +5,9 @@
   "scripts": {
     "start": "node ./dist/server.js",
     "dev": "ts-node-dev --respawn --transpile-only ./src/server.ts",
-    "lint": "npx eslint src",
-    "lint:fix": "npx eslint src --fix",
-    "format": "npx prettier --ignore-path .prettierignore --write \"**/*.{js,ts,jsx,tsx,json}\"",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "_comment": "prettier command ta alada kore chalanor dorkar nai. karon eslint er sathei prettier er plugin setup kora ase. ejonno shudhu lint:fix command ta dilei hobe. tobe jodi eslint-plugin-prettier plugin ta eslint er sathe use kora na hoi taile prettier command ta manually run korte hobe. prettier: prettier --ignore-path .prettierignore --write \"**/*.{js,ts,jsx,tsx,json}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
